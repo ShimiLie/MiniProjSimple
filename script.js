@@ -1,3 +1,10 @@
-fetch('https://github.com/cheeaun/arrivelah/?id=66271')
+
+
+function getApiData() {
+
+    fetch('https://jsonplaceholder.typicode.com/todos')
       .then(response => response.json())
       .then(json => console.log(json))
+};
+
+getApiData();
